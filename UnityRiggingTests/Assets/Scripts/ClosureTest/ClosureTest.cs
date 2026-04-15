@@ -7,13 +7,7 @@ public class ClosureTest : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        var refInt = new RefValue<int>(1);
     }
 }
 
